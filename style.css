@@ -1,0 +1,193 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* body { 
+    font-family: 'Roboto', sans-serif;
+} */
+
+.button1 { 
+    background: #3882F6;
+    color: #F9FAF8;
+    margin-top: 15px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+img { 
+    max-width: 100%;
+    height: 250px;
+}
+
+ul { 
+    list-style-type: none;
+}
+
+.container { 
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar { 
+    background: #1F2937;
+    color: #F9FAF8;
+    height: 60px;
+}
+
+.navbar .logo { 
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar a { 
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar .container { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul { 
+    display: flex;
+}
+
+.navbar ul li { 
+    margin-left: 20px;
+}
+
+.header { 
+    background-color: #1F2937;
+    color: #F9FAF8;
+    min-height: 400px;
+    padding-top: 60px;
+}
+
+.header h1 { 
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.header img { 
+    max-width: 600px;
+}
+
+.header .container { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title { 
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.box {
+    width: 125px;
+    height: 125px;
+    border: 2px solid blue;
+    border-radius: 10px;
+  }
+
+.teineosa .container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+    color: #1F2937;
+    font-weight: 600;
+  }
+
+  .text {
+    margin-top: 10px;
+  }
+
+  .kolmasosa {
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .kolmasosa .container {
+    max-width: 900px;
+    padding: 0 50px;
+  }
+
+
+  .kolmasosa p {
+    font-size: 36px;
+    font-weight: 100;
+    width: 800px;
+    text-align: start;
+    color: #1F2937;
+  }
+
+  .kolmasosa div {
+    text-align: end;
+    font-weight: bolder;
+  }
+
+  .neljasosa .container {
+    background-color: #3882F6;
+    border-radius: 5px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+
+  }
+
+  .neljasosa p {
+    margin-left: 150px;
+    font-size: 18px;
+  }
+
+  .neljasosa button {
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    margin-right: 150px;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  button:hover {
+    background-color: #ffffff;
+    color: #3882F6;
+  }
+
+  footer {
+    background-color: #1F2937;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+
+
